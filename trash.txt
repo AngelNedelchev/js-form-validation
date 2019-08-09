@@ -1,0 +1,44 @@
+let myEmail = document.getElementById('email');
+      let expression = /^[a-zA-Z0-9_.+-]+gmail.com+$/;
+      let gmail = document.getElementById('gmail');
+      let checkk = function (){
+
+    if (myEmail.value = "") {
+      document.getElementById('gmail').style.color = 'red';
+      document.getElementById('gmail').innerHTML = 'Please fill in your email adress';
+
+    } else if (myEmail.value.match(expression)) {
+      document.getElementById('gmail').style.color = 'green';
+      document.getElementById('gmail').innerHTML = 'This adress is OK';
+      
+    }else {
+      document.getElementById('gmail').style.color = 'red';
+      document.getElementById('gmail').innerHTML = 'bla bla bla';
+  }
+  console.log(myEmail);
+
+}
+
+// let myEmail = document.getElementById('email');
+// let gmail = document.getElementById('gmail');
+// let checkk = function(){      
+// var emailPattern = /^[a-zA-Z0-9._-]+@[gmail.com]$/;
+
+// // let abc = function checkk() {
+  
+
+
+//   if (myEmail.value = "") {
+//     gmail.style.color = 'red';
+//     gmail.innerHTML = 'Please fill in your email adress';
+
+//   } else if (document.getElementById('email').value.match(emailPattern)) {
+//     gmail.style.color = 'green';
+//     gmail.innerHTML = 'This adress is OK';
+    
+//   }else {
+//     gmail.style.color = 'red';
+//     gmail.innerHTML = 'bla bla bla';
+//   }
+// }
+  

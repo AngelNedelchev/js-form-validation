@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    background-image: url(img/background.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+.success{
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+#abc {
+    background-color: black;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#ps {
+    border: 1px solid black;
+}
+#header-wrapper{
+    text-align: center;
+    .header{
+           color: gray;  
+    }
+    p {
+        color: gray;
+    } 
+}
+fieldset {
+    background-color: rgb(209, 248, 255);
+    box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.73);
+    border: none;
+    border-radius: 10px;
+}
+#main-form {
+    display: flex;
+}
+#hobbies {
+    height: 150px;
+}
+#pass {
+    color: black;
+}

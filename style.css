@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  background-image: url(img/background.jpg);
+  font-family: 'Roboto', sans-serif;
+}
+
+.success {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#abc {
+  background-color: black;
+}
+
+.form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#ps {
+  border: 1px solid black;
+}
+
+#header-wrapper {
+  text-align: center;
+}
+
+#header-wrapper .header {
+  color: gray;
+}
+
+#header-wrapper p {
+  color: gray;
+}
+
+fieldset {
+  background-color: #d1f8ff;
+  -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.73);
+          box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.73);
+  border: none;
+  border-radius: 10px;
+}
+
+#main-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hobbies {
+  height: 150px;
+}
+
+#pass {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
